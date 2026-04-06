@@ -17,9 +17,3 @@ class Cliente(Pessoa):
         super().__init__(nome, idade)
         self.conta: contas.Conta | None = None
 
-
-# if __name__ == "__main__":
-#     c1 = Cliente("Felipe", 26)
-#     cp1 = contas.ContaPoupanca(222, 9898)
-#     c1.conta = cp1
-#     print(c1.conta)
