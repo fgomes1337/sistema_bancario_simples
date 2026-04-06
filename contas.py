@@ -71,21 +71,3 @@ class ContaCorrente(Conta):
         print(f"Seu limite é de {self.limite:.2f}")
         self.detalhes(f"(SAQUE NEGADO {valor:.2f})")
         return self._saldo
-
-
-# if __name__ == "__main__":
-#     cp1 = ContaPoupanca(222, 9898)
-#     print(cp1)
-#     cp1.sacar(1)
-#     cp1.depositar(1)
-#     cp1.sacar(1)
-#     cp1.sacar(1)
-
-#     cc1 = ContaCorrente(222, 9898, 0, 100)
-#     print(cc1)
-#     cc1.sacar(1)
-#     cc1.depositar(1)
-#     cc1.sacar(1)
-#     cc1.sacar(50)
-#     cc1.sacar(49)
-#     cc1.sacar(1)
